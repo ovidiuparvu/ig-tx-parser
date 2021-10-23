@@ -1,2 +1,3 @@
-# ig-tx-parser
-IG.com transaction history parser
+# IG.com transaction history parser
+
+This repository contains improperly tested prototype code.
