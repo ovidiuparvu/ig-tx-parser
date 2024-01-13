@@ -24,16 +24,16 @@ Steps:
 2. Set up python in the environment in which you want to parse the transaction history.
 3. Install the python virtualenv package if it is not installed already.
 ```bash
-pip install --upgrade virtualenv
+python -m pip install -U virtualenv
 ```
 4. Create and activate a new Python virtual environment for the transaction history parsing.
 ```bash
-python -m venv .venv;
-. .venv/bin/activate;
+python -m venv venv;
+. venv/bin/activate;
 ```
 5. Install the required Python packages using the `requirements.txt` file from this repository.
 ```bash
-pip install --upgrade -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 6. Run JupyterLab.
 ```bash
